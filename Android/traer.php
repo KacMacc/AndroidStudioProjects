@@ -2,7 +2,7 @@
         $host = "localhost";
         $usuario = "root";
         $pass = "";
-        $bd = "dupa";
+        $bd = "";
 		
 		$servidor = mysql_connect($host, $usuario, $pass);
 		
