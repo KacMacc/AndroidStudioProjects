@@ -4,7 +4,7 @@
 $host = 'localhost';
 $username = 'root';
 $pwd = '';
-$db = 'dupa';
+$db = '';
 
 $con = mysqli_connect($host, $username, $pwd, $db) or die ('Unable to connect');
  mysqli_query($con,"SET CHARSET utf8");
