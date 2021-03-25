@@ -6,7 +6,7 @@ $username = "root";
 //database password
 $pwd = "";
 //database name.
-$db = "dupa";
+$db = "";
 
 $con=mysqli_connect($host,$username,$pwd,$db) or die("Unable to Connect");
 
