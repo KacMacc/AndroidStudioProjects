@@ -21,7 +21,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$host = 'localhost';
 	$username = 'root';
 	$pwd = '';
-	$db = 'dupa';
+	$db = '';
 
 	$con = mysqli_connect($host, $username, $pwd, $db) or die ('Unable to connect');
 	
