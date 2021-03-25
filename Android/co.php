@@ -3,7 +3,7 @@
 $host = 'localhost';
 $username = 'root';
 $pwd = '';
-$dbname = 'dupa';
+$dbname = '';
 
 $db = new mysqli($host, $username, $pwd, $dbname, 3306) or die ('Unable to connect');
 $db->set_charset("utf8");
